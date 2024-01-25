@@ -1,278 +1,255 @@
-import {
-  AmbitLogo,
-  BarepapersLogo,
-  BimLogo,
-  CDGOLogo,
-  ClevertechLogo,
-  ConsultlyLogo,
-  EvercastLogo,
-  Howdy,
-  JarockiMeLogo,
-  JojoMobileLogo,
-  Minimal,
-  MobileVikingsLogo,
-  MonitoLogo,
-  NSNLogo,
-  ParabolLogo,
-  TastyCloudLogo,
-  YearProgressLogo,
-} from "@/images/logos";
-import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+// import {
+// } from "@/images/logos";
+import { GitHubIcon, LinkedInIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Alexander Varga",
+  initials: "AV",
+  location: "Canada, MST",
+  locationLink: "https://www.google.com/maps/place/Calgary",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
+    "Currently focused on professional development. Passionate about working on complex problems in software engineering, machine learning, and data science.",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
+    "Software/Biomedical engineering graduate with keen interest in AI/ML, distributed systems, computer security and networks. Currently working part-time as a full stack SWE for a handful of start-ups, implementing a wide range of solutions from full-stack devops, to ZKP, to experimenting with LLMs. If you need a software/data/ml engineer please contact me.",
+  avatarUrl: "https://media.licdn.com/dms/image/D5603AQHjkRCjZDVOCQ/profile-displayphoto-shrink_200_200/0/1692650329724?e=1711584000&v=beta&t=gx4_TL-tG1B-2Ez7xksY-a1w2RR27znvJ_DVZAOWgY8",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "vargacapital@protonmail.com",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/alex-varga14",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "www.linkedin.com/in/alexander-varga14",
         icon: LinkedInIcon,
-      },
-      {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "University of Calgary",
+      degree: "B.Sc. in Software and Biomedical Engineering.",
+      start: "2019",
+      end: "2023",
+    },
+    {
+      school: "University of Calgary",
+      degree: "Certificate in Engineering Leadership",
+      start: "2019",
+      end: "2022",
     },
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
+      company: "Mala Connect",
+      link: "https://malaconnect.de/",
       badges: ["Remote"],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
+      title: "Full Stack Developer",
+      logo: "",
+      start: "2023",
+      end: "Present",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+        "Contributing to the development of an innovative full-stack start-up, advancing the sector's digital transformation. Technologies: Next.js, TypeScript, Tailwind, Flask, PostgresDB, Redis, Docker, RabbitMQ, Nginx, GCP, Stripe",
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
+      company: "PrivID",
+      link: "https://www.privid.co/",
       badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
+      title: "Software Security Developer",
+      logo: "",
+      start: "2022",
+      end: "Present",
+      description:
+        "Developing novel, state-of-the-art software integrating the power of FHE, ZKP, and ML in compliance with new regulatory bodies such as GDPR, CPPA. Technologies: Rust, FHE, ZKP, ML, Docker",
+    },
+    {
+      company: "Varga Capital",
+      link: "/not-found",
+      badges: ["Consulting"],
+      title: "Owner / Consultant",
+      logo: "",
+      start: "2022",
+      end: "Present",
+      description:
+        <>
+          <li>
+            Software consulting encompassing full-stack development, data science, and machine learning, with a keen focus on tackling complex technological challenges.
+          </li>
+          <li>
+            I am deeply committed to delivering cutting-edge solutions that drive innovation and efficiency.
+          </li>
+        </>
+    },
+    {
+      company: "SECURE Energy Services",
+      link: "https://www.secure-energy.com/",
+      badges: ["Contract"],
+      title: "Software Consultant",
+      logo: "",
+      start: "2022",
+      end: "2022",
+      description:
+      <>
+        <li>
+          Led initiative to optimize SQL database performance, leveraging MSSQL tools. 
+        </li>
+        <li>
+          Developed comprehensive documentation for SQL tables and views, facilitating better information consolidation and identification of critical pain points, playing a pivotal role in enhancing team understanding and collaboration on database architecture.
+        </li>
+        <li>
+          Redesigned SQL queries, incorporating best practices in DBMS.
+        </li>
+      </>
+    },
+    {
+      company: "Embedded Systems Products Inc.",
+      link: "http://www.espi.ca/",
+      badges: ["Contract"],
+      title: "Embedded Systems Consultant ",
+      logo: "", // todo 
+      start: "2021",
       end: "2021",
       description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+      <>
+        <li>
+          Spearheaded the testing and refinement of next-generation virtual assistant technology, ensuring its reliability and performance exceeded industry standards.
+        </li>
+        <li>
+          Implemented sophisticated unit testing methodologies to evaluate complex embedded systems, significantly enhancing system stability and efficiency.
+        </li>
+      </>
     },
   ],
   skills: [
-    "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
+    "Python",
+    "LLMs",
+    "Langchain",
+    "C/C++",
+    "Rust",
+    "Assembly",
+    "Java",
+    "JavaScript/TypeScript",
+    "Solidity",
+    "MOVE",
+    "React/Next.js",
+    "Vue.js",
     "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "Kivy/PyQt",
+    "SQL DBs",
+    "NoSQL DBs",
+    "Vector DBs",
+    "AWS",
+    "GCP",
+    "Docker",
+    "Linux",
+    "Windows",
+    "Git",
+    "Software Architecture",
+    "Computer Security/Networks",
+    "Testing/QA",
+    "English + French + Spanish",
   ],
   projects: [
     {
-      title: "Consultly",
+      title: "GeCover",
       techStack: [
-        "Side Project",
         "TypeScript",
         "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
+        "Vercel",
+        "Tailwind",
+        "Supabase",
+        "Python",
+        "FastAPI",
+        "Cohere/OpenAI",
+        "Fine Tuning",
+        "Docker",
       ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
+      description: "AI Tool Kit Accelerating the Job Application Process.",
+      logo: "",
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "gecover.com",
+        href: "https://www.gecover.com/",
       },
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
+      title: "EzServe",
+      techStack: ["Python", "Langchain", "GCP - VertexAI, Speech API, Translation API", "PyQt5", "Weaviate VectorDB", "Square API", "Docker", "Raspberry Pi 4"],
       description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
+        "An LLM-powered tableside server built to run on a Raspberry Pi.",
+      logo: "",
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
+        label: "github.com/alex-varga14/EzServe/tree/master",
+        href: "https://github.com/alex-varga14/EzServe/tree/master",
       },
     },
     {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
+      title: "Intelli-Plan",
+      techStack: ["JavaScript", "Langchain", "OpenAI", "Jira", "Atlassian" ],
       description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
+        "An Atlassian Jira plugin leveraging LLMs to generate software sprints.",
+      logo: "",
       link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
+        label: "github.com/alex-varga14/projectmanagement-forge-app/tree/main",
+        href: "https://github.com/alex-varga14/projectmanagement-forge-app/tree/main",
       },
     },
     {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "Life-Sized Humanoid Robot",
+      techStack: ["C" , "Python", "ROS", "Kivy", "Motor/Sensor Interfacing - LiDAR, Intel Realsense, Dynamixel", "Embedded Systems"],
       description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
+        "Portions of capstone work - Software for life-sized humanoid robot.",
+      logo: "",
       link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
+        label: "github.com/alex-varga14/Life-Sized-Humanoid-Robot",
+        href: "https://github.com/alex-varga14/Life-Sized-Humanoid-Robot",
       },
     },
     {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "Distributed Coupon Application",
+      techStack: ["Flutter", "Python", "Django", "MySQL", "AWS", "Docker", "Redis", "gRPC"],
       description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
+        "Distributed coupon application implementing replication, fault tolerance, consistency and synchronization.",
+      logo: "",
       link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
+        label: "github.com/alex-varga14/Distributed-Coupon-Application/tree/main",
+        href: "https://github.com/alex-varga14/Distributed-Coupon-Application/tree/main",
       },
     },
     {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
+      title: "Speaker Recognition using GMM",
+      techStack: ["Python", "Sklearn", "Pandas", "Numpy"],
+      description:
+        "Developed a speaker recognition system using Gaussian Mixture Models and Mel Frequency Cepstral Coefficients.",
+      logo: "",
       link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
+        label: "github.com/alex-varga14/Biometrics-Labs/blob/main/speaker-recognition-gmm/LabProject_SpeakerRecognition_AlexanderVarga.ipynb",
+        href: "https://github.com/alex-varga14/Biometrics-Labs/blob/main/speaker-recognition-gmm/LabProject_SpeakerRecognition_AlexanderVarga.ipynb",
       },
     },
     {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
+      title: "Course Critic",
+      techStack: ["Vue.js", "Node.js", "Bootstrap 5", "MySQL", "HTML/CSS"],
       description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
+        "Review, rate and discuss courses on Course Critic; a full-stack application built for students and peers.",
+      logo: "",
       link: {
-        label: "github.com",
-        href: "https://parabol.co/",
+        label: "github.com/alex-varga14/Course-Critic/tree/main",
+        href: "https://github.com/alex-varga14/Course-Critic/tree/main",
       },
     },
     {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
+      title: "Fruit Classifier",
+      techStack: ["Python", "TensorFlow", "Keras", "Sklearn", "seaborn", "Numpy", "Kaggle"],
       description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
+        "Designed and trained a Keras-based Convolutional Neural Network for efficient fruit image classification, achieving high accuracy with advanced data preprocessing and model optimization techniques.",
+      logo: "",
       link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
+        label: "github.com/alex-varga14/BMEN415---Machine-Learning-Models/blob/main/Fruit%20Code/Imaging/Fruit.ipynb",
+        href: "https://github.com/alex-varga14/BMEN415---Machine-Learning-Models/blob/main/Fruit%20Code/Imaging/Fruit.ipynb",
       },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
     },
   ],
 } as const;
