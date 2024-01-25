@@ -55,15 +55,15 @@ export const RESUME_DATA = {
         "Contributing to the development of an innovative full-stack start-up, advancing healthcare's digital transformation. Technologies: Next.js, TypeScript, Tailwind, Flask, PostgresDB, Redis, Docker, RabbitMQ, Nginx, GCP, Stripe",
     },
     {
-      company: "PrivID",
-      link: "https://www.privid.co/",
+      company: "[Confidential]",
+      link: "",
       badges: ["Remote"],
       title: "Software Security Developer",
       logo: "",
       start: "2022",
       end: "Present",
       description:
-        "Developing novel, state-of-the-art software integrating the power of FHE, ZKP, and ML in compliance with new regulatory bodies such as GDPR, CPPA. Technologies: Rust, FHE, ZKP, ML, Docker",
+        "Rust development for state-of-the-art privacy enhancing software integrating the power of FHE, ZKP, and ML in compliance with new regulatory bodies such as GDPR, CPPA. Technologies: Rust, FHE, ZKP, ML, Docker",
     },
     {
       company: "Varga Capital",
