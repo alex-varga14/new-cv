@@ -10,7 +10,7 @@ export const RESUME_DATA = {
   about:
     "Currently focused on professional development. Passionate about working on complex problems in software engineering, machine learning, and data science.",
   summary:
-    "Software/Biomedical engineering graduate with keen interest in AI/ML, distributed systems, computer security and networks. Currently working part-time as a full stack SWE for a handful of start-ups, implementing a wide range of solutions from full-stack devops, to ZKP, to experimenting with LLMs. If you need a software/data/ml engineer please contact me.",
+    "Software/Biomedical engineering graduate with keen interest in AI/ML, distributed systems, computer security and networks. Currently working part-time as a full stack SWE for a handful of start-ups, implementing a wide range of solutions from full-stack devops, to ZKP, to experimenting with LLMs. If you need a Software/Data/ML engineer please contact me.",
   avatarUrl: "https://media.licdn.com/dms/image/D5603AQHjkRCjZDVOCQ/profile-displayphoto-shrink_200_200/0/1692650329724?e=1711584000&v=beta&t=gx4_TL-tG1B-2Ez7xksY-a1w2RR27znvJ_DVZAOWgY8",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
@@ -52,7 +52,7 @@ export const RESUME_DATA = {
       start: "2023",
       end: "Present",
       description:
-        "Contributing to the development of an innovative full-stack start-up, advancing the sector's digital transformation. Technologies: Next.js, TypeScript, Tailwind, Flask, PostgresDB, Redis, Docker, RabbitMQ, Nginx, GCP, Stripe",
+        "Contributing to the development of an innovative full-stack start-up, advancing healthcare's digital transformation. Technologies: Next.js, TypeScript, Tailwind, Flask, PostgresDB, Redis, Docker, RabbitMQ, Nginx, GCP, Stripe",
     },
     {
       company: "PrivID",
