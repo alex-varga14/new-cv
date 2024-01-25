@@ -63,7 +63,7 @@ export const RESUME_DATA = {
       start: "2022",
       end: "Present",
       description:
-        "Rust development for state-of-the-art privacy enhancing software integrating the power of FHE, ZKP, and ML in compliance with new regulatory bodies such as GDPR, CPPA. Technologies: Rust, FHE, ZKP, ML, Docker",
+        "Developing state-of-the-art privacy enhancing software integrating the power of FHE, ZKP, and ML in compliance with new regulatory bodies such as GDPR, CPPA. Technologies: Rust, FHE, ZKP, ML, Docker",
     },
     {
       company: "Varga Capital",
