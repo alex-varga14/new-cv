@@ -241,7 +241,7 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Fruit Classifier",
+      title: "Fruit Classification using CNN",
       techStack: ["Python", "TensorFlow", "Keras", "Sklearn", "seaborn", "Numpy", "Kaggle"],
       description:
         "Designed and trained a Keras-based Convolutional Neural Network for efficient fruit image classification, achieving high accuracy with advanced data preprocessing and model optimization techniques.",
