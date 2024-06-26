@@ -8,10 +8,10 @@ export const RESUME_DATA = {
   location: "Canada, MST",
   locationLink: "https://www.google.com/maps/place/Calgary",
   about:
-    "Currently focused on professional development. Passionate about working on complex problems in software engineering, machine learning, and data science.",
+    "Masters In Quantum Computing Candidate.",
   summary:
-    "Software/Biomedical engineering graduate with keen interest in AI/ML, distributed systems, computer security and networks. Currently working part-time as a full stack SWE for a handful of start-ups, implementing a wide range of solutions from full-stack devops, to ZKP, to experimenting with LLMs. If you need a Software/Data/ML engineer please contact me.",
-  avatarUrl: "https://media.licdn.com/dms/image/D5603AQHjkRCjZDVOCQ/profile-displayphoto-shrink_200_200/0/1692650329724?e=1711584000&v=beta&t=gx4_TL-tG1B-2Ez7xksY-a1w2RR27znvJ_DVZAOWgY8",
+    "New Software/Biomedical engineering graduate passionate about working on complex problems in software engineering, AI/ML, distributed systems, compsec and networks. Currently providing my services as a full stack SWE for a handful of start-ups, implementing a wide range of solutions from full-stack devops, to ZKP, to experimenting with LLMs. If you need a Software/Data/ML engineer please contact me.",
+  avatarUrl: "https://media.licdn.com/dms/image/D5603AQHjkRCjZDVOCQ/profile-displayphoto-shrink_800_800/0/1692650329724?e=1724889600&v=beta&t=ptR5wQ81vNQUtwWBy61HzZZ2VlX17pRaVVnxsqGDPbg",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
     email: "vargacapital@protonmail.com",
