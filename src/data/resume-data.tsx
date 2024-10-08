@@ -10,7 +10,7 @@ export const RESUME_DATA = {
   about:
     "Masters In Quantum Computing Candidate.",
   summary:
-    "New Software/Biomedical engineering graduate passionate about working on complex problems in software engineering, AI/ML, distributed systems, compsec and networks. Currently providing my services as a full stack SWE for a handful of start-ups, implementing a wide range of solutions from full-stack devops, to ZKP, to experimenting with LLMs. If you need a Software/Data/ML engineer please contact me.",
+    "Software/Biomedical engineering graduate passionate about working on complex problems in software engineering, AI/ML, Quantum, distributed systems, compsec and networks. Currently providing my services as a full stack SWE for a handful of start-ups, implementing a wide range of solutions from full-stack devops, to ZKP, to experimenting with LLMs. If you need a Software/Data/ML engineer please contact me.",
   avatarUrl: "https://media.licdn.com/dms/image/v2/D5603AQHjkRCjZDVOCQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1692650329724?e=1730937600&v=beta&t=aaeloCle1A9PzUMvGXcC_TerxnodiZ5P1QbMA00EyJ8",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
