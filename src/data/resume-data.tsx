@@ -31,6 +31,12 @@ export const RESUME_DATA = {
   education: [
     {
       school: "University of Calgary",
+      degree: "Master's in Quantum Computing",
+      start: "2024",
+      end: "2025",
+    },
+    {
+      school: "University of Calgary",
       degree: "B.Sc. in Software and Biomedical Engineering.",
       start: "2019",
       end: "2023",
@@ -43,6 +49,27 @@ export const RESUME_DATA = {
     },
   ],
   work: [
+    {
+      company: "Varga Capital",
+      link: "/not-found",
+      badges: ["Consulting"],
+      title: "Owner / Consultant",
+      logo: "",
+      start: "2022",
+      end: "Present",
+      description:
+        <>
+          <li>
+            Software consulting encompassing full-stack development, data science, and machine learning, with a keen focus on tackling complex technological challenges.
+          </li>
+          <li>
+            Have designed and implemented software solutions leveraging AI, blockchain, and recently exploring how quantum can be used.
+          </li>
+          <li>
+            I am deeply committed to delivering cutting-edge solutions that drive innovation and efficiency.
+          </li>
+        </>
+    },
     {
       company: "Mala Connect",
       link: "https://malaconnect.de/",
@@ -61,27 +88,9 @@ export const RESUME_DATA = {
       title: "Software Security Developer",
       logo: "",
       start: "2022",
-      end: "Present",
+      end: "2024",
       description:
         "Developing state-of-the-art privacy enhancing software integrating the power of FHE, ZKP, and ML in compliance with new regulatory bodies such as GDPR, CPPA. Technologies: Rust, FHE, ZKP, ML, Docker",
-    },
-    {
-      company: "Varga Capital",
-      link: "/not-found",
-      badges: ["Consulting"],
-      title: "Owner / Consultant",
-      logo: "",
-      start: "2022",
-      end: "Present",
-      description:
-        <>
-          <li>
-            Software consulting encompassing full-stack development, data science, and machine learning, with a keen focus on tackling complex technological challenges.
-          </li>
-          <li>
-            I am deeply committed to delivering cutting-edge solutions that drive innovation and efficiency.
-          </li>
-        </>
     },
     {
       company: "SECURE Energy Services",
@@ -124,6 +133,7 @@ export const RESUME_DATA = {
     },
   ],
   skills: [
+    "Quantum Algorithms",
     "Python",
     "LLMs",
     "Langchain",
@@ -131,7 +141,8 @@ export const RESUME_DATA = {
     "Rust",
     "Assembly",
     "Java",
-    "JavaScript/TypeScript",
+    "JavaScript",
+    "TypeScript",
     "Solidity",
     "MOVE",
     "React/Next.js",
@@ -148,11 +159,49 @@ export const RESUME_DATA = {
     "Windows",
     "Git",
     "Software Architecture",
-    "Computer Security/Networks",
-    "Testing/QA",
+    "Cybersecurity",
+    "Networks",
     "English + French + Spanish",
   ],
   projects: [
+    {
+      title: "Q-Impact",
+      techStack: [
+        "TypeScript",
+        "Next.js",
+        "Qiskit",
+        "Quantum Rings",
+        "Quantum Approximate Optimization Algorithms",
+        "Tensor Networks",
+      ],
+      description: "Empowering Sustainable Investment through Quantum Advantage.",
+      logo: "",
+      link: {
+        label: "gen-q-hack2024.vercel.app",
+        href: "https://gen-q-hack2024.vercel.app/",
+      },
+    },
+    {
+      title: "Pintxo [COMING SOON]",
+      techStack: [
+        "TypeScript",
+        "Next.js",
+        "Cohere AI",
+        "Vespa",
+        "Python",
+        "Nest.js",
+        "Docker",
+        "Kafka",
+        "Substreams",
+        "Docker",
+      ],
+      description: "Natural Language Interface to the Blockchain.",
+      logo: "",
+      link: {
+        label: "pintxo.ai",
+        href: "https://www.pintxo.ai/",
+      },
+    },
     {
       title: "GeCover",
       techStack: [
