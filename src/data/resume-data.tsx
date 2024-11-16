@@ -220,7 +220,7 @@ export const RESUME_DATA = {
       logo: "",
       link: {
         label: "gecover.com",
-        href: "https://www.gecover.com/",
+        href: "https://gecover.vercel.app/",
       },
     },
     {
