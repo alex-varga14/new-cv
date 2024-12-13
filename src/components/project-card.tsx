@@ -6,6 +6,7 @@ import {
   CardTitle,
 } from "./ui/card";
 import { Badge } from "./ui/badge";
+import ReactMarkdown from "react-markdown";
 
 interface Props {
   title: string;
@@ -37,7 +38,9 @@ export function ProjectCard({ title, description, tags, link }: Props) {
             {link?.replace("https://", "").replace("www.", "").replace("/", "")}
           </div>
           <CardDescription className="font-mono text-xs">
-            {description}
+            <ReactMarkdown>
+              {description.replace(/\n/g, "  \n")}
+            </ReactMarkdown>
           </CardDescription>
         </div>
       </CardHeader>

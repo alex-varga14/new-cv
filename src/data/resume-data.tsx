@@ -10,8 +10,8 @@ export const RESUME_DATA = {
   about:
     "Masters In Quantum Computing Candidate.",
   summary:
-    "Software/Biomedical engineering graduate passionate about working on complex problems in software engineering, AI/ML, Quantum, distributed systems, compsec and networks. Currently providing my services as a full stack SWE for a handful of start-ups, implementing a wide range of solutions from full-stack devops, to ZKP, to experimenting with LLMs. If you need a Software/Data/ML engineer please contact me.",
-  avatarUrl: "https://media.licdn.com/dms/image/v2/D5603AQHjkRCjZDVOCQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1692650329724?e=1730937600&v=beta&t=aaeloCle1A9PzUMvGXcC_TerxnodiZ5P1QbMA00EyJ8",
+    "Highly competent Software/Biomedical Engineer with over six years of experience developing complex software systems, driven by a passion for tackling challenging problems in AI/ML, quantum computing, distributed systems, and cybersecurity. Currently pursuing a master’s in quantum computing to innovate at the intersection of advanced quantum technologies and real-world applications. I work as a full-stack SWE for startups, delivering diverse solutions spanning full-stack development, DevOps, ZKP, and LLM experimentation. Open to opportunities as a Software, Data, or ML Engineer—feel free to reach out!",
+  avatarUrl: "https://media.licdn.com/dms/image/v2/D5603AQHjkRCjZDVOCQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1692650329724?e=1739404800&v=beta&t=o8DrNKh35v-pfpeg7jOFxv2tmvIgsLO6dTyu-ncDINw",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
     email: "vargacapital@protonmail.com",
@@ -30,20 +30,20 @@ export const RESUME_DATA = {
   },
   education: [
     {
-      school: "University of Calgary",
-      degree: "Master's in Quantum Computing",
+      school: "MQuaC - Quantum Computing",
+      degree: "University of Calgary",
       start: "2024",
       end: "2025",
     },
     {
-      school: "University of Calgary",
-      degree: "B.Sc. in Software and Biomedical Engineering.",
+      school: "B.Sc - Software & Biomedical Engineering",
+      degree: "University of Calgary",
       start: "2019",
       end: "2023",
     },
     {
-      school: "University of Calgary",
-      degree: "Certificate in Engineering Leadership",
+      school: "Certificate - Engineering Leadership",
+      degree: "University of Calgary",
       start: "2019",
       end: "2022",
     },
@@ -73,24 +73,24 @@ export const RESUME_DATA = {
     {
       company: "Mala Connect",
       link: "https://malaconnect.de/",
-      badges: ["Remote"],
-      title: "Full Stack Developer",
+      badges: ["Remote - Köln"],
+      title: "SWE",
       logo: "",
       start: "2023",
       end: "Present",
       description:
-        "Contributing to the development of an innovative full-stack start-up, advancing healthcare's digital transformation. Technologies: Next.js, TypeScript, Tailwind, Flask, PostgresDB, Redis, Docker, RabbitMQ, Nginx, GCP, Stripe",
+        "Contributing to the development of an innovative full-stack healthcare platform, connecting individuals in need with those who can provide care and services. Technologies: Next.js, TypeScript, Tailwind, Flask, PostgresDB, Redis, Docker, RabbitMQ, Nginx, GCP, Stripe",
     },
     {
       company: "[Confidential]",
       link: "",
-      badges: ["Remote"],
+      badges: ["Remote - Toronto/Prague"],
       title: "Software Security Developer",
       logo: "",
       start: "2022",
       end: "2024",
       description:
-        "Developing state-of-the-art privacy enhancing software integrating the power of FHE, ZKP, and ML in compliance with new regulatory bodies such as GDPR, CPPA. Technologies: Rust, FHE, ZKP, ML, Docker",
+        "Developing state-of-the-art privacy-enhancing software integrating the power of Fully Homomorphic Encryption (FHE), Zero-Knowledge Proofs (ZKP), and Machine Learning (ML), with a focus on compliance with regulatory frameworks like GDPR and CPPA. Incorporating quantum-resistant technologies to ensure long-term data security. Technologies: Rust, FHE, ZKP, ML, Docker.",
     },
     {
       company: "SECURE Energy Services",
@@ -101,17 +101,17 @@ export const RESUME_DATA = {
       start: "2022",
       end: "2022",
       description:
-      <>
-        <li>
-          Led initiative to optimize SQL database performance, leveraging MSSQL tools. 
-        </li>
-        <li>
-          Developed comprehensive documentation for SQL tables and views, facilitating better information consolidation and identification of critical pain points, playing a pivotal role in enhancing team understanding and collaboration on database architecture.
-        </li>
-        <li>
-          Redesigned SQL queries, incorporating best practices in DBMS.
-        </li>
-      </>
+        <>
+          <li>
+            Led initiative to optimize SQL database performance, leveraging MSSQL tools.
+          </li>
+          <li>
+            Developed comprehensive documentation for SQL tables and views, facilitating better information consolidation and identification of critical pain points, playing a pivotal role in enhancing team understanding and collaboration on database architecture.
+          </li>
+          <li>
+            Redesigned SQL queries, incorporating best practices in DBMS.
+          </li>
+        </>
     },
     {
       company: "Embedded Systems Products Inc.",
@@ -122,21 +122,26 @@ export const RESUME_DATA = {
       start: "2021",
       end: "2021",
       description:
-      <>
-        <li>
-          Spearheaded the testing and refinement of next-generation virtual assistant technology, ensuring its reliability and performance exceeded industry standards.
-        </li>
-        <li>
-          Implemented sophisticated unit testing methodologies to evaluate complex embedded systems, significantly enhancing system stability and efficiency.
-        </li>
-      </>
+        <>
+          <li>
+            Spearheaded the testing and refinement of next-generation virtual assistant technology, ensuring its reliability and performance exceeded industry standards.
+          </li>
+          <li>
+            Implemented sophisticated unit testing methodologies to evaluate complex embedded systems, significantly enhancing system stability and efficiency.
+          </li>
+        </>
     },
   ],
   skills: [
+    // Quantum Computing
     "Quantum Algorithms",
+    "Qiskit",
+    "Cirq",
+    //"Quantum Circuit Optimization",
+    //"Post-Quantum Cryptography",
+
+    // Programming Languages
     "Python",
-    "LLMs",
-    "Langchain",
     "C/C++",
     "Rust",
     "Assembly",
@@ -145,25 +150,79 @@ export const RESUME_DATA = {
     "TypeScript",
     "Solidity",
     "MOVE",
+
+    // Web and Frontend
     "React/Next.js",
     "Vue.js",
-    "Node.js",
-    "Kivy/PyQt",
-    "SQL DBs",
-    "NoSQL DBs",
-    "Vector DBs",
+    "QT",
+    "Kivy",
+
+    // Backend Development
+    "Scalable and Event-Driven Architecture",
+    "Backend Frameworks (Node.js, Express.js, FastAPI, Django, Flask)",
+    "API Design (REST, GraphQL, gRPC, WebSockets)",
+    "Authentication (OAuth, JWT, SSO)",
+    "Performance Optimization (Caching, Message Queues, Load Balancing)",
+    "Server Management (Nginx, Apache, Reverse Proxies)",
+    "Testing (Backend Frameworks, Integration, Unit Testing)",
+
+    // Databases and Data Management
+    "SQL",
+    "NoSQL",
+    "Vector Databases",
+    "Graph Databases",
+    "ORMs",
+
+    // Cloud and DevOps
     "AWS",
     "GCP",
     "Docker",
+    "CI/CD Pipelines",
+
+    // Systems and Optimization
     "Linux",
     "Windows",
+
+    // AI and Machine Learning
+    "LLMs",
+    "Langchain",
+    "TensorFlow",
+    "PyTorch",
+    "MLOps",
+
+    // Tools and Practices
     "Git",
-    "Software Architecture",
+    "Algorithms & Data Structures",
+    "Distributed Systems",
+    "Microservices",
     "Cybersecurity",
     "Networks",
-    "English + French + Spanish",
+    "Agile",
+    "Scrum",
+
+    // Languages
+    "English",
+    "French",
+    "Spanish",
   ],
+
   projects: [
+    {
+      title: "Quantum Semantic Hilbert Space Search",
+      techStack: [
+        "Qiskit",
+        "Python",
+        "Grovers Algorithm",
+        "Qiskit Functions/Addons",
+      ],
+      description: `Semantic Hilbert Space Search (SHS), combining quantum computing and natural language processing (NLP) to enable efficient semantic searches across text corpora.  
+      **Winner at Q2B24 Silicon Valley Hackathon, hosted by IBM Quantum, Aqora, & QCWare.**`,
+      logo: "",
+      link: {
+        label: "gen-q-hack2024.vercel.app",
+        href: "https://gen-q-hack2024.vercel.app/",
+      },
+    },
     {
       title: "Q-Impact",
       techStack: [
@@ -174,7 +233,8 @@ export const RESUME_DATA = {
         "Quantum Approximate Optimization Algorithms",
         "Tensor Networks",
       ],
-      description: "Empowering Sustainable Investment through Quantum Advantage.",
+      description: `Empowering Sustainable Investment through Quantum Advantage. 
+      **Winner at 2024 GenQ Hackathon, hosted by QAI Ventures.**`,
       logo: "",
       link: {
         label: "gen-q-hack2024.vercel.app",
@@ -236,7 +296,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Intelli-Plan",
-      techStack: ["JavaScript", "Langchain", "OpenAI", "Jira", "Atlassian" ],
+      techStack: ["JavaScript", "Langchain", "OpenAI", "Jira", "Atlassian"],
       description:
         "An Atlassian Jira plugin leveraging LLMs to generate software sprints.",
       logo: "",
@@ -247,7 +307,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Life-Sized Humanoid Robot",
-      techStack: ["C" , "Python", "ROS", "Kivy", "Motor/Sensor Interfacing - LiDAR, Intel Realsense, Dynamixel", "Embedded Systems"],
+      techStack: ["C", "Python", "ROS", "Kivy", "Motor/Sensor Interfacing - LiDAR, Intel Realsense, Dynamixel", "Embedded Systems"],
       description:
         "Portions of capstone work - Software for life-sized humanoid robot.",
       logo: "",
