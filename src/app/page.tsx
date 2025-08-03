@@ -119,9 +119,6 @@ export default function Page() {
 
         <Section className="print-force-new-page scroll-mb-16">
           <h2 className="text-xl font-bold">Projects</h2>
-          <h6 className="text-pretty font-mono text-sm text-muted-foreground">
-            All projects I have built myself or have made significant contributions to.
-          </h6>
           <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-1 print:gap-2 md:grid-cols-1 lg:grid-cols-1">
             {RESUME_DATA.projects.map((project) => {
               return (

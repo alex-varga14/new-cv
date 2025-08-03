@@ -50,9 +50,19 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Quantum City",
+      link: "https://io.ucalgary.ca/quantum-city",
+      badges: ["Contract - Alberta, CA"],
+      title: "Research Intern",
+      logo: "",
+      start: "2025",
+      end: "Present",
+      description: "AI agents for quantum computing."
+    },
+    {
       company: "Varga Capital",
       link: "/not-found",
-      badges: ["Consulting"],
+      badges: ["International"],
       title: "Owner / Consultant",
       logo: "",
       start: "2022",
@@ -73,7 +83,7 @@ export const RESUME_DATA = {
     {
       company: "Mala Connect",
       link: "https://malaconnect.de/",
-      badges: ["Remote - Köln"],
+      badges: ["Remote - Köln, DE"],
       title: "SWE",
       logo: "",
       start: "2023",
@@ -95,7 +105,7 @@ export const RESUME_DATA = {
     {
       company: "SECURE Energy Services",
       link: "https://www.secure-energy.com/",
-      badges: ["Contract"],
+      badges: ["Contract - Alberta, CA"],
       title: "Software Consultant",
       logo: "",
       start: "2022",
@@ -116,7 +126,7 @@ export const RESUME_DATA = {
     {
       company: "Embedded Systems Products Inc.",
       link: "http://www.espi.ca/",
-      badges: ["Contract"],
+      badges: ["Contract - Alberta, CA"],
       title: "Embedded Systems Consultant ",
       logo: "", // todo 
       start: "2021",
