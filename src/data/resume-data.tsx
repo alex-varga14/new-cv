@@ -56,7 +56,7 @@ export const RESUME_DATA = {
       title: "Research Intern",
       logo: "",
       start: "2025",
-      end: "Present",
+      end: "2025",
       description: "AI agents for quantum computing."
     },
     {
