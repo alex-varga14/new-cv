@@ -50,16 +50,6 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "Quantum City",
-      link: "https://io.ucalgary.ca/quantum-city",
-      badges: ["Contract - Alberta, CA"],
-      title: "Research Intern",
-      logo: "",
-      start: "2025",
-      end: "2025",
-      description: "AI agents for quantum computing."
-    },
-    {
       company: "Varga Capital",
       link: "/not-found",
       badges: ["International"],
@@ -81,13 +71,23 @@ export const RESUME_DATA = {
         </>
     },
     {
+      company: "Quantum City",
+      link: "https://io.ucalgary.ca/quantum-city",
+      badges: ["Contract - Alberta, CA"],
+      title: "Research Intern",
+      logo: "",
+      start: "2025",
+      end: "2025",
+      description: "AI agents for quantum computing."
+    },
+    {
       company: "Mala Connect",
       link: "https://malaconnect.de/",
       badges: ["Remote - Köln, DE"],
       title: "SWE",
       logo: "",
       start: "2023",
-      end: "Present",
+      end: "2025",
       description:
         "Contributing to the development of an innovative full-stack healthcare platform, connecting individuals in need with those who can provide care and services. Technologies: Next.js, TypeScript, Tailwind, Flask, PostgresDB, Redis, Docker, RabbitMQ, Nginx, GCP, Stripe",
     },
